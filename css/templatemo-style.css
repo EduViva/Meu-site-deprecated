@@ -28,12 +28,15 @@ https://templatemo.com/tm-518-sentra
     width: 100%;
     text-align: center;
   }
+  .Modern-Slider #projects-slider{
+    margin-top: 5%;
+  }
   .Modern-Slider #skills-slider .break{
     flex-basis: 100%;
   }
-  .Modern-Slider #skills-slider #skill-hotjar{
-    margin-left: 20px;
-    margin-right: 20px;
+  .Modern-Slider #skills-slider{
+    height: 80%;
+    overflow-y: auto;
   }
   .Modern-Slider #slider-contato h1,
   .Modern-Slider #sobre-slider h1,
@@ -60,12 +63,16 @@ https://templatemo.com/tm-518-sentra
   }
   .Modern-Slider #projects-slider{
     width: 70%;
+    margin-top: 3%;
   }
   .Modern-Slider #projects-slider .projeto{
     margin-right: 3%;
     flex: 1;
     height: 80%;
   }
+  .Modern-Slider .hard-items .break{
+    display: none;
+  } 
   .Modern-Slider #slider-experiência{
     width: 50%;
   }
@@ -430,7 +437,6 @@ header {
   flex-wrap: wrap; 
   flex-direction: row; 
   height: 70%;
-  margin-top: 5%;
   overflow-y: auto;
 }
 
@@ -468,10 +474,6 @@ header {
 .skills h3{
   margin-top: 10px;
 }
-.Modern-Slider #skills-slider{
-  height: 80%;
-  overflow-y: auto;
-}
 .soft-skills{
   margin-top: 3%;
 }
@@ -490,6 +492,10 @@ header {
 .skills img{
   width: 60px;
   height: 60px;
+}
+.Modern-Slider #skills-slider #skill-hotjar{
+  margin-left: 20px;
+  margin-right: 20px;
 }
 /*Skills*/
 
