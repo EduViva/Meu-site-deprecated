@@ -104,11 +104,19 @@ jQuery(document).ready(function($) {
             $(".Modern-Slider").slick('slickGoTo',goTo);
         });
 
-
-        $('.button a[href*=#]').on('click', function(e) {
-          e.preventDefault();
-          $('html, body').animate({ scrollTop: $($(this).attr('href')).offset().top -0 }, 500, 'linear');
+        $(function () {
+            $('[data-toggle="tooltip"]').tooltip()
         });
+
+        $('.copy_text').on('click', function(){
+            var $temp = $("<input>");
+            $("body").append($temp);
+            $temp.val(this.text).select();
+            document.execCommand('copy');
+            this.attributes['data-original-title'].value = "Copiado!";
+        });
+
+        
 
 
 });
