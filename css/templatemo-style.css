@@ -7,6 +7,15 @@ https://templatemo.com/tm-518-sentra
 */
 
 @media(max-width:768px){
+  .open_cv{
+    width: 84% !important;
+  }
+  .download_cv{
+    margin-left: -4px;
+    width: 10% !important;
+    padding-left: 10px !important;
+    padding-right: 19px !important;
+  }
   .Modern-Slider #projects-slider .projeto{
     width: 100%;
     flex: none;
@@ -54,6 +63,17 @@ https://templatemo.com/tm-518-sentra
 }
 
 @media(min-width: 769px){
+  .download_cv{
+    margin-left: -4px;
+    padding-left: 15px !important;
+  }
+  .open_cv::after{
+    content: "";
+    height: 120%;
+    width: 0px;
+    border: 1px solid gray;
+    margin-left: 14%;
+  }
   .break {
     flex-basis: 100%;
     height: 0;
@@ -428,6 +448,19 @@ header {
   border-radius: 3px;
   padding: 10px;
   background-color: rgba(0,0,0,.4);
+}
+/*
+.myPhoto{
+  max-width: 150px;
+  max-height: 150px;
+  border: 2px solid #45489a;
+  border-radius: 90px;
+  float: left;
+  margin-left: -180px;
+}
+*/
+.open_cv{
+  padding-right: 15px !important;
 }
 
 /*Projetos*/
