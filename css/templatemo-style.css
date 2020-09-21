@@ -7,14 +7,8 @@ https://templatemo.com/tm-518-sentra
 */
 
 @media(max-width:768px){
-  .open_cv{
-    width: 84% !important;
-  }
   .download_cv{
-    margin-left: -4px;
-    width: 10% !important;
-    padding-left: 10px !important;
-    padding-right: 19px !important;
+    display: none !important;
   }
   .Modern-Slider #projects-slider .projeto{
     width: 100%;
