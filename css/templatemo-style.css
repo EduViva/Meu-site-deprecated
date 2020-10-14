@@ -41,6 +41,9 @@ https://templatemo.com/tm-518-sentra
     height: 80%;
     overflow-y: auto;
   }
+  .Modern-Slider #skills-slider img{
+    margin-top: 5%;
+  }
   .Modern-Slider #slider-contato h1,
   .Modern-Slider #sobre-slider h1,
   .Modern-Slider #skills-slider h1
@@ -548,8 +551,14 @@ header {
 }
 
 .Modern-Slider .info p {
-  font-size: 15px;
+  font-size: 13pt;
   color: #fff;
+}
+
+.Modern-Slider #slider-contato p,
+.Modern-Slider #slider-contato ul
+{
+  margin-top: 10%;
 }
 
 .Modern-Slider .info .button {
