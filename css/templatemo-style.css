@@ -27,6 +27,9 @@ https://templatemo.com/tm-518-sentra
   .Modern-Slider #sobre-slider .button{
     width: 49%;
   }
+  .Modern-Slider #sobre-slider p{
+    margin-top: 25px;
+  }
   .Modern-Slider #sobre-slider .button a{
     width: 100%;
     text-align: center;
@@ -93,6 +96,7 @@ https://templatemo.com/tm-518-sentra
   .Modern-Slider #slider-experiência{
     width: 50%;
   }
+  
 }
 
 body {
@@ -555,11 +559,13 @@ header {
   color: #fff;
 }
 
-.Modern-Slider #slider-contato p,
-.Modern-Slider #slider-contato ul
-{
+.Modern-Slider #slider-contato p{
   margin-top: 10%;
 }
+
+.Modern-Slider #slider-contato ul{
+  margin-top: 25%;
+  }
 
 .Modern-Slider .info .button {
   display: inline-block;
