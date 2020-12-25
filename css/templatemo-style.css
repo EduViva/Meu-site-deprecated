@@ -17,6 +17,9 @@ https://templatemo.com/tm-518-sentra
     margin-top: 3%;
     color: var(-primary-color);
   }
+  .Modern-Slider #projects-slider #projetos_BTaction{
+    margin-top: 8%;
+  }
   .break{
     width: 0;
     height: 0;
@@ -90,13 +93,19 @@ https://templatemo.com/tm-518-sentra
     flex: 1;
     height: 80%;
   }
+  .Modern-Slider #projects-slider #projetos_BTaction{
+    margin-top: 3%;
+  }
   .Modern-Slider .hard-items .break{
     display: none;
   } 
   .Modern-Slider #slider-experiência{
     width: 50%;
   }
-  
+  #skill-invision{
+    max-height: 50px;
+    margin-left: 10px;
+  }
 }
 
 body {
@@ -501,6 +510,10 @@ header {
 .Modern-Slider #projects-slider .projeto img{
   width: 100px;
   height: 100px;
+}
+
+.Modern-Slider #projects-slider #projetos_BTaction .button{
+  display: inline !important;
 }
 /*Projetos*/
 
